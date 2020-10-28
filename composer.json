@@ -1,0 +1,27 @@
+{
+    "name": "iggi/crawler",
+    "description": "A quick-start helper to website crawling.",
+    "keywords": ["crawl", "data-mining"],
+    "homepage": "https://github.com/ignatisd/crawler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ignatios Drakoulas",
+            "email": "ignatisnb@gmail.com",
+            "homepage": "https://ignatisd.gr"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Iggi\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "iggi/curlrequest": "^2"
+    }
+}
